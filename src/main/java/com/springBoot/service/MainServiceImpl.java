@@ -1,10 +1,9 @@
-package com.demo.service;
+package com.springBoot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import com.demo.dto.MainDto;
+import com.springBoot.dto.MainDto;
 
 @Component
 public class MainServiceImpl implements MainService{

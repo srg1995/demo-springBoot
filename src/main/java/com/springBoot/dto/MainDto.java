@@ -1,4 +1,4 @@
-package com.demo.dto;
+package com.springBoot.dto;
 
 public interface MainDto {
 

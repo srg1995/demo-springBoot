@@ -1,4 +1,4 @@
-package com.demo.service;
+package com.springBoot.service;
 
 public interface MainService {
 	void registrar(String nombre);

@@ -9,6 +9,14 @@
 </head>
 <body>
     <p th:text="'Bienvenido, ' + ${nombre}"/>
+    <p>Este es el listado que solicitaste:</p>
+    
+    <table border="solid">
+    	<t:block th:each="per : ${listado}">
+    		<td th:text="${per.nombre}"></td>
+    		<td th:text="${per.edad}"></td>
+    	</th>
+    </table>
     
 </body>
 </html>
