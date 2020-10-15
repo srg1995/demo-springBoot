@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.springBoot.dto.IPersonaRepo;
-import com.springBoot.dto.Persona;
 
 @Controller
 public class MainController {
