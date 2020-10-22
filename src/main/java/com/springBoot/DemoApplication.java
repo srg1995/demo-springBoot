@@ -23,10 +23,7 @@ public class DemoApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		/*LOG.info("------este es un log");
-		LOG.warn("------este es un log WARNING");
-		LOG.error("------este es un log ERROR");*/
-		objPrincipal.registrar("sergio");
+
 	}
 
 }
