@@ -12,11 +12,11 @@ import com.springBoot.dto.Usuario;
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner{
 	
-	@Autowired
+	/*@Autowired
 	private IUsuarioRepo user;
 	
 	@Autowired
-	private BCryptPasswordEncoder encoder;
+	private BCryptPasswordEncoder encoder;*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
@@ -24,12 +24,12 @@ public class DemoApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		Usuario us = new Usuario();
+		/*Usuario us = new Usuario();
 		us.setId(3);
 		us.setNombre("sergioCody");
 		us.setClave(encoder.encode("sergio"));
 		
-		user.save(us);
+		user.save(us);*/
 		
 	}
 
